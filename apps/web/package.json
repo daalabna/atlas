@@ -1,0 +1,44 @@
+{
+  "name": "@atlas/web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev --host 127.0.0.1 --port 3000",
+    "build": "nuxt build",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "typecheck": "nuxt typecheck",
+    "test": "vitest run --config vitest.config.ts",
+    "test:e2e": "playwright test --config playwright.config.ts",
+    "bench": "vitest run --config vitest.bench.config.ts"
+  },
+  "dependencies": {
+    "@atlas/api-client": "workspace:*",
+    "@atlas/contracts": "workspace:*",
+    "@atlas/data-engine": "workspace:*",
+    "@atlas/domain": "workspace:*",
+    "@atlas/history-engine": "workspace:*",
+    "@atlas/ui": "workspace:*",
+    "@atlas/virtual-grid": "workspace:*",
+    "@atlas/workers": "workspace:*",
+    "@nuxt/fonts": "^0.12.1",
+    "@pinia/nuxt": "^1.0.2",
+    "nuxt": "^4.5.2",
+    "pinia": "^4.0.3",
+    "vue": "^3.5.13",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^26.4.1",
+    "@vitejs/plugin-vue": "^6.0.8",
+    "@vue/test-utils": "^2.4.6",
+    "globals": "^17.12.0",
+    "happy-dom": "^17.4.4",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.9",
+    "vue-tsc": "^2.2.8"
+  }
+}

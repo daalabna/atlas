@@ -1,0 +1,16 @@
+[
+  {
+    "id": "row-1",
+    "cells": {
+      "name": "Alex Chen",
+      "email": "alex.chen@atlas.dev",
+      "status": "active",
+      "score": 91,
+      "priority": "high",
+      "active": true,
+      "joinedAt": "2024-04-12",
+      "city": "Berlin",
+      "role": "engineer"
+    }
+  }
+]

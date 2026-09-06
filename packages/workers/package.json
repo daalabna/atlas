@@ -1,0 +1,23 @@
+{
+  "name": "@atlas/workers",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./engine": "./src/engine.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "build": "node -e \"process.exit(0)\""
+  },
+  "dependencies": {
+    "@atlas/data-engine": "workspace:*",
+    "@atlas/domain": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.9"
+  }
+}

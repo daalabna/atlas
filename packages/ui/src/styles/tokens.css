@@ -1,0 +1,25 @@
+:root {
+  --atlas-bg: #0b0d12;
+  --atlas-bg-elevated: #12151c;
+  --atlas-bg-muted: #181c26;
+  --atlas-bg-hover: #1e2430;
+  --atlas-border: #2a3140;
+  --atlas-border-strong: #3a4356;
+  --atlas-text: #e8eaef;
+  --atlas-text-muted: #8b93a7;
+  --atlas-accent: #5b8cff;
+  --atlas-accent-soft: rgba(91, 140, 255, 0.16);
+  --atlas-success: #3ecf8e;
+  --atlas-warning: #f5a524;
+  --atlas-danger: #f87171;
+  --atlas-selection: rgba(91, 140, 255, 0.22);
+  --atlas-radius: 8px;
+  --atlas-font: "IBM Plex Sans", "Segoe UI", sans-serif;
+  --atlas-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --atlas-shadow: 0 18px 50px rgba(0, 0, 0, 0.35);
+}
+
+.atlas-ui {
+  font-family: var(--atlas-font);
+  color: var(--atlas-text);
+}
